@@ -6,12 +6,12 @@ purduelady/Example-Node:
   PreRelease:
     - echo "---Beginning PreRelease---"
     - echo "--Installing build dependencies--"
-    - echo "-Updating apt-get-"
-    - sudo apt-get -y update
+    - echo "-Updating brew install"
+    - sudo brew install update
     - echo "-Installing nodejs-"
-    - sudo apt-get -y install nodejs
+    - sudo brew install nodejs
     - echo "-Installing npm-"
-    - sudo apt-get -y install npm
+    - sudo brew install npm
     - echo "--Building--"
     - npm install
     - echo "--Testing--"
