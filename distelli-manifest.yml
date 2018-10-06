@@ -7,11 +7,11 @@ purduelady/Example-Node:
     - echo "---Beginning PreRelease---"
     - echo "--Installing build dependencies--"
     - echo "-Updating brew install"
-    - brew install update
+    - /usr/local/bin/brew install update
     - echo "-Installing nodejs-"
-    - brew install nodejs
+    - /usr/local/bin/brew install nodejs
     - echo "-Installing npm-"
-    - brew install npm
+    - /usr/local/bin/brew install npm
     - echo "--Building--"
     - npm install
     - echo "--Testing--"
@@ -27,11 +27,11 @@ purduelady/Example-Node:
     - echo "---Begining PreInstall---"
     - echo "--Installing deploy dependencies--"
     - echo "-Updating brew"
-    - brew install update
+    - /usr/local/bin/brew install update
     - echo "-Installing nodejs-"
-    - brew nodejs
+    - /usr/local/bin/brew nodejs
     - echo "-Installing npm-"
-    - brew install npm
+    - /usr/local/bin/brew install npm
 
   PostInstall:
     - echo "Begin PostInstall"
