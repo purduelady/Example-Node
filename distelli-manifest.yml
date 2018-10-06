@@ -6,12 +6,12 @@ purduelady/Example-Node:
   PreRelease:
     - echo "---Beginning PreRelease---"
     - echo "--Installing build dependencies--"
-    - echo "-Updating brew install"
-    - /usr/local/bin/brew install update
+    - echo "-Updating apt-get-"
+    - sudo apt-get -y update
     - echo "-Installing nodejs-"
-    - /usr/local/bin/brew install nodejs
+    - sudo apt-get -y install nodejs
     - echo "-Installing npm-"
-    - /usr/local/bin/brew install npm
+    - sudo apt-get -y install npm
     - echo "--Building--"
     - npm install
     - echo "--Testing--"
@@ -26,12 +26,12 @@ purduelady/Example-Node:
   PreInstall:
     - echo "---Begining PreInstall---"
     - echo "--Installing deploy dependencies--"
-    - echo "-Updating brew"
-    - /usr/local/bin/brew install update
+    - echo "-Updating apt-get-"
+    - sudo apt-get -y update
     - echo "-Installing nodejs-"
-    - /usr/local/bin/brew nodejs
+    - sudo apt-get -y install nodejs
     - echo "-Installing npm-"
-    - /usr/local/bin/brew install npm
+    - sudo apt-get -y install npm
 
   PostInstall:
     - echo "Begin PostInstall"
